@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="Resource\Img\emil.ico">
+<title>Scioglimento dei ghiacciai alpi</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+  <!-- Navbar sticky -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="Resource\Img\marconi.png" alt="Custom Logo" width="100" height="70" />
+    </div>
+    <div class="nav-buttons">
+      <button onclick="location.href='about.html'">About</button>
+      <button onclick="location.href='sitography.html'">Sitography</button>
+    </div>
+  </nav>
+
+  <!-- Sezione due colonne -->
+  <div class="container">
+    <div class="column column-text">
+      <h1>La Causa principale:</h1>
+      <p>La principale causa è l’effetto serra. Alcuni gas presenti nell’atmosfera catturano il calore del sole impedendogli di ritornare nello spazio.
+        Molti di questi gas sono presenti in natura, ma le attività umane fanno aumentare le concentrazioni di alcuni di essi nell’atmosfera, in particolare:
+        l’anidride carbonica
+        il metano
+        l’ossido di azoto
+        i gas fluorurati
+        La CO2 prodotta dalle attività umane è il principale fattore del riscaldamento globale.
+        Nel 2020 la concentrazione nell’atmosfera superava del 48% il livello preindustriale (prima del 1750).</p>
+    </div>
+    <div class="column column-image">
+      <img src="Resource\Img\Emissioni_gas_serra.jpg" alt="Paesaggio generico">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="column column-text">
+      <h1>Ghiacciai Alpi:</h1>
+      <p>Se il riscaldamento globale proseguirà ad un tasso simile a quello osservato negli ultimi 20 anni, i ghiacciai delle Alpi sono destinati a dimezzarsi entro il 2050, perdendo circa il 46% del loro volume; percentuale che potrebbe salire al 65% se si considera l’andamento soltanto degli ultimi 10 anni.
+
+        Anche se il riscaldamento globale dovesse arrestarsi completamente in questo momento, le Alpi perderanno in ogni caso almeno un terzo dei loro ghiacciai (34%) entro il 2050.
+        
+        Secondo le previsioni di Greenpeace Italia e del Comitato Glaciologico Italiano, fino all’80% dei ghiacciai alpini italiani rischia di scomparire entro il 2060.
+        </p>
+    </div>
+    <div class="column column-image">
+      <img src="Resource\Img\Ghiacciai_montagne.jpg" alt="Paesaggio generico">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="column column-text">
+      <h1>Ghiacciai nel mondo:</h1>
+      <p>Molti sono i ghiacciai in continuo scioglimento, e molti di questi potrebbero portare ad una scomparsa di varie terre; Tra il 1994 e il 2017 si sono perse 28.000.000.000.000 (28mila miliardi) di tonnellate di ghiaccio, principalmente della Groenlandia.
+        Tra le conseguenze principali di questo c’è l’innalzamento del livello dei mari. Secondo il NY Times entro il 2050 l’innalzamento del livello del mare inonderà il 17% della terra e sfollerà 18 milioni di persone.
+        Le Pine Island e Thwaites, i due maggiori ghiacciai antartici, hanno raggiunto un punto di non ritorno, che potrebbe portare ad un innalzamento di oltre 3 metri del livello del mare.
+        Luoghi che rischiano di scomparire: la barriera corallina in Australia, dove i coralli stanno perdendo il loro colore a causa del riscaldamento dell’acqua, le isole delle Maldive, il Bangladesh e anche la città di Venezia.
+        </p>
+    </div>
+    <div class="column column-image">
+      <img src="Resource\Img\Ghiacciaio.jpg" alt="Paesaggio generico">
+    </div>
+  </div>
+
+  <!-- Comparison Slider -->
+  <div class="img-comp-container">
+    <div class="img-comp-img">
+      <img src=".\\Resource\\Img\\Trento 31-12-2024.png">
+    </div>
+    <div class="img-comp-img img-comp-overlay">
+      <img src=".\\Resource\\Img\\Trento 18-01-1991.png" >
+    </div>
+  </div>
+
+
+<script src="scripts.js"></script>
 
 </body>
 </html>
